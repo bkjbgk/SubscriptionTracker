@@ -1,0 +1,14 @@
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\bin\Debug\net10.0\SubscriptionTracker.exe
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\bin\Debug\net10.0\SubscriptionTracker.deps.json
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\bin\Debug\net10.0\SubscriptionTracker.runtimeconfig.json
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\bin\Debug\net10.0\SubscriptionTracker.dll
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\bin\Debug\net10.0\SubscriptionTracker.pdb
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.AssemblyInfoInputs.cache
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.AssemblyInfo.cs
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.csproj.CoreCompileInputs.cache
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.dll
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\refint\SubscriptionTracker.dll
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.pdb
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.genruntimeconfig.cache
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\ref\SubscriptionTracker.dll
