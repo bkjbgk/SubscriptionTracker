@@ -12,3 +12,4 @@ C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\re
 C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.pdb
 C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.genruntimeconfig.cache
 C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\ref\SubscriptionTracker.dll
+C:\Users\Настя\SubscriptionTracker\SubscriptionTracker\obj\Debug\net10.0\SubscriptionTracker.sourcelink.json
