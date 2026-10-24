@@ -2,11 +2,18 @@ namespace SubscriptionTracker.Models;
 
 public class MusicSubscription : Subscription
 {
-    public bool IsFamilyPlan { get; set; }
+    public bool AutoRenew { get; set; } = true;
 
-    public override string GetDetails()
+    public MusicSubscription() { }
+
+    public MusicSubscription(int id, string name, decimal price, bool autoRenew) 
+        : base(id, name, price)
     {
-        string plan = IsFamilyPlan ? "Сімейний" : "Індивідуальний";
-        return $"[Музика] {Name} | Тариф: {plan} | Ціна: {Price} грн | Днів: {DaysLeft}";
+        AutoRenew = autoRenew;
     }
+
+    public override decimal CalculateMonthlyCost() => Price / 12;
+
+    public override string CorrectDetails => $"Музика {Name}: {Price} грн/рік (Автопродовження: {AutoRenew})";
+    public override string Prompt => "Введіть рік";
 }

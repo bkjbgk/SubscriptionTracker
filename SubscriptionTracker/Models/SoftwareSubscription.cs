@@ -2,11 +2,21 @@ namespace SubscriptionTracker.Models;
 
 public class SoftwareSubscription : Subscription
 {
-    public bool IsAnnualBilling { get; set; }
+    public List<string> Milestones { get; set; } = new();
 
-    public override string GetDetails()
+    // Індексатор за вимогами лабораторної
+    public string this[int number] => Milestones[number - 1];
+
+    public SoftwareSubscription() { }
+
+    public SoftwareSubscription(int id, string name, decimal price, params string[] milestones) 
+        : base(id, name, price)
     {
-        string billing = IsAnnualBilling ? "Річна" : "Місячна";
-        return $"[ПЗ] {Name} | Оплата: {billing} | Ціна: {Price} грн | Днів: {DaysLeft}";
+        Milestones.AddRange(milestones);
     }
+
+    public override decimal CalculateMonthlyCost() => Price;
+
+    public override string CorrectDetails => "ПЗ / Разова покупка";
+    public override string Prompt => "Сума витрати";
 }

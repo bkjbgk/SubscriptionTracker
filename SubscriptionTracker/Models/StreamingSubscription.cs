@@ -2,10 +2,17 @@ namespace SubscriptionTracker.Models;
 
 public class StreamingSubscription : Subscription
 {
-    public string Quality { get; set; } = "HD";
+    public int MonthsActive { get; set; } = 1;
 
-    public override string GetDetails()
+    public StreamingSubscription() { }
+
+    public StreamingSubscription(int id, string name, decimal price, int monthsActive) 
+        : base(id, name, price)
     {
-        return $"[Стрімінг] {Name} | Якість: {Quality} | Ціна: {Price} грн | Днів: {DaysLeft}";
+        MonthsActive = monthsActive;
     }
+
+    public override decimal CalculateMonthlyCost() => Price;
+
+    public override string CorrectDetails => $"Стрімінг {Name}: {Price} грн/міс";
 }
